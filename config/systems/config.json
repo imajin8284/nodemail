@@ -1,0 +1,15 @@
+{
+  "state": "development",
+  "loglevel": "TRACE",
+  "domain": "localhost:3000",
+  "mailaccount": "manshitsu@broad-e.co.jp",
+  "mailAddress":"n.matsumoto@broad-e.co.jp",
+  "mailsetting": {
+    "host": "broad-e.co.jp",
+    "auth": {
+      "user": "manshitsu@broad-e.co.jp",
+      "pass": "ooT_ae8ohJ",
+      "port": "25"
+    }
+  }
+}
