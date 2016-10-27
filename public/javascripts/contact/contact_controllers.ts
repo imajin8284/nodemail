@@ -8,50 +8,61 @@
 
 let ContactControllers: angular.IModule = angular.module('ContactControllers', []);
 
-ContactControllers.factory('FileHtmlQuery', ['$resource',
-    ($resource): angular.resource.IResource<any> => {
-        return $resource('/contact/jsonQuery', {}, {
-            query: {method: 'GET'}
-        });
-    }]);
-ContactControllers.factory('contactSend', ['$resource',
+ContactControllers.factory('mailSend', ['$resource',
     ($resource): angular.resource.IResource<any> => {
         return $resource('/contact/send', {}, {
-            send: {method: 'POST'}
+            send: {method: 'GET'}
         });
     }]);
 
-
-ContactControllers.controller('ContactController', ['$scope','contactSend',
-    ($scope: any,contactSend:any): void => {
+ContactControllers.controller('ContactController', ['$scope','mailSend',
+    ($scope: any,mailSend:any): void => {
+        $scope.gamen = true;
 
         let a = 1;
+
+        //SelectBoxの初期値
         $scope.selects = [2010,2011,2012,2013,2014];
-        $scope.year = null;
+        $scope.select = null;
+
 
         $scope.click = () => {
+            $scope.gamen = false;
+        };
 
+        $scope.Registration = () =>{
+            let item = new mailSend();
 
-
-            let item = new contactSend();
             item.text = $scope.text;
-            item.text = $scope.textarea;
+
+            item.textarea = $scope.textarea;
+
+            item.radio = $scope.radio;
+
             item.check1 = $scope.check1;
             item.check2 = $scope.check2;
-//            let b = $scope.select;
-            // item.$send((data): void => {
-            //     if (data == 0) {
-            //         let a = 1;
-            //     }
-            // });
+
+            item.group = $scope.group;
+
+            item.select = $scope.select;
+
+            item.$send((data: any): void => {
+
+                if(data == 0){
+                    console.log("成功");
+                }
+
+            });
+        }
+    }]);
+
+ContactControllers.controller('ContactConfirmationController', ['$scope','mailTransition','$location',
+    ($scope: any,mailTransition:any,$location:any): void => {
 
 
 
-
-        };
 
 
 
 
     }]);
-

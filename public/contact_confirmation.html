@@ -1,41 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>お問い合わせ</title>
-</head>
-<body>
+<div ng-hide="gamen">
+    <div>テキストボックス</div>
+    {{text}}
 
-<div>テキストボックス</div>
-<input type="text" value="aaaa">
+    <div>テキストエリア</div>
+    {{textarea}}
 
-<div>テキストエリア</div>
-<textarea>dddd</textarea>
+    <div>チェックボックス</div>
+    {{check1}}
 
-<div>チェックボックス</div>
-<input type="checkbox" value="aaaa">
-<input type="checkbox" value="aaaa">
-<input type="checkbox" value="aaaa">
-<input type="checkbox" value="aaaa">
+    <div>ラジオボタン</div>
+    {{group}}
 
+    <div>プルダウン</div>
+    {{select}}
 
+    <br>
+    <input type="button" value="登録" ng-click="Registration()">
 
-<div>ラジオボタン</div>
-<input type="radio" value="aaaa">
-<input type="radio" value="aaaa">
-<input type="radio" value="aaaa">
-<input type="radio" value="aaaa">
-
-</body>
-
-<!-- ここから絶対に触らないで下さい！！！ -->
-<script type="text/javascript", src="/bower_components/angular/angular.min.js"></script>
-<script type="text/javascript", src="/bower_components/angular-resource/angular-resource.min.js"></script>
-<script type="text/javascript", src="/bower_components/angular-animate/angular-animate.min.js"></script>
-<script type="text/javascript", src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
-<script type="text/javascript", src="/bower_components/angular-messages/angular-messages.min.js"></script>
-<script type="text/javascript", src="/bower_components/angular-aria/angular-aria.min.js"></script>
-<script type="text/javascript", src="/bower_components/angular-i18n/angular-locale_ja-jp.js"></script>
-<!-- ここまで絶対に触らないで下さい！！！ -->
-
-</html>
+</div>

@@ -21,14 +21,16 @@ export module ShareModule {
     export const logger = log4js.getLogger('request');
     logger.setLevel(config.loglevel);
 
-    // const Promised: any = require("./wrapper");
-    // export const Wrapper = new Promised.Wrapper();
+    const Promised: any = require("./wrapper");
+    export const Wrapper = new Promised.Wrapper();
 
     const path:any = require('path');
     export const AbsolutePath = (relpath) => {
         return path.join(__dirname, relpath);
     };
 
+    const FileUtility: any = require("./file_utility");
+    export const Utility = new FileUtility.Utility(path.join(__dirname, "../../public"));
 
     export class Share {
 

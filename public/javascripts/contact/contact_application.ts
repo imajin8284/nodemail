@@ -16,6 +16,7 @@ ContactApplication.run(['$rootScope',
     }
 ]);
 
+
 // ContactApplication.config(['$compileProvider', '$httpProvider',
 //     ($compileProvider:any, $httpProvider:any):void => {
 //         $compileProvider.debugInfoEnabled(false);

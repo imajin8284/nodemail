@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>お問い合わせ</title>
-</head>
-<body>
+    <div ng-show="gamen">
 
-<form role='form' name="validate">
-    <div ng-app="ContactApplication" ng-controller="ContactController">
         <div>テキストボックス</div>
         <input type="text" value="aaaa" ng-model="text" ng-maxlength="36">
 
@@ -36,19 +28,10 @@
         <label for="radio3m">radio3</label>
         <br>
 
-        <select ng-model="select" ng-options="select for select in selects"></select>
+        <select ng-model="select" ng-options="select for select in selects">
+            <option value=''>未選択</option>
+        </select>
 
+        <br>
         <input type="button" value="登録" ng-click="click()">
     </div>
-</form>
-</body>
-<script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
-<script type="text/javascript" src="/bower_components/angular-resource/angular-resource.min.js"></script>
-<script type="text/javascript" src="/bower_components/angular-animate/angular-animate.min.js"></script>
-<script type="text/javascript" src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
-<script type="text/javascript" src="/bower_components/angular-messages/angular-messages.min.js"></script>
-<script type="text/javascript" src="/bower_components/angular-aria/angular-aria.min.js"></script>
-<script type="text/javascript" src="/bower_components/angular-i18n/angular-locale_ja-jp.js"></script>
-<script type="text/javascript" src="/javascripts/contact/contact_application.js"></script>
-<script type="text/javascript" src="/javascripts/contact/contact_controllers.js"></script>
-</html>

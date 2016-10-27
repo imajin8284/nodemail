@@ -28,7 +28,6 @@
     "animate.css": "^3.5.2",
     "angular-chips": "^1.0.8",
     "ace": "^1.2.5",
-    "ace-builds": "^1.2.5",
-    "angular-ui-ace": "^0.2.3"
+    "ace-builds": "^1.2.5"
   }
 }
