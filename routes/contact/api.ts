@@ -18,7 +18,6 @@ export module ContactApiRouter {
     const exception: any = new ExceptionController.Exception();
 
     router.get('/send',[exception.exception, Contact.send]);
-    router.get('/contact/send',[Contact.send]);
 
 }
 module.exports = ContactApiRouter.router;

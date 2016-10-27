@@ -25,9 +25,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//app.use('/', routes);
-//app.use('/users', users);
-
 let contact_api = require("./routes/contact/api");
 let contact_pages = require("./routes/contact/pages");
 

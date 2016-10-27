@@ -9,10 +9,10 @@
 <form role='form' name="validate">
     <div ng-app="ContactApplication" ng-controller="ContactController">
         <div>テキストボックス</div>
-        <input type="text" value="aaaa" ng-model="test" ng-maxlength="36">
+        <input type="text" value="aaaa" ng-model="text" ng-maxlength="36">
 
         <div>テキストエリア</div>
-        <textarea>dddd</textarea>
+        <textarea ng-model="textarea">dddd</textarea>
 
         <div>チェックボックス</div>
         <div>
@@ -26,12 +26,17 @@
         </div>
 
         <div>ラジオボタン</div>
-        <input type="radio" value="aaaa">
-        <input type="radio" value="aaaa">
-        <input type="radio" value="aaaa">
-        <input type="radio" value="aaaa">
-
+        <input type="radio" id="radio1m" value="radio1" name="group" ng-model="radio">
+        <label for="radio1m">radio1</label>
         <br>
+        <input type="radio" id="radio2m" value="radio2" name="group" ng-model="radio">
+        <label for="radio2m">radio2</label>
+        <br>
+        <input type="radio" id="radio3m" value="radio3" name="group" ng-model="radio">
+        <label for="radio3m">radio3</label>
+        <br>
+
+        <select ng-model="select" ng-options="select for select in selects"></select>
 
         <input type="button" value="登録" ng-click="click()">
     </div>

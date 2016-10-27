@@ -21,8 +21,8 @@ export module ShareModule {
     export const logger = log4js.getLogger('request');
     logger.setLevel(config.loglevel);
 
-    const Promised: any = require("./wrapper");
-    export const Wrapper = new Promised.Wrapper();
+    // const Promised: any = require("./wrapper");
+    // export const Wrapper = new Promised.Wrapper();
 
     const path:any = require('path');
     export const AbsolutePath = (relpath) => {

@@ -4,12 +4,11 @@
   "domain": "localhost:3000",
   "mailaccount": "manshitsu@broad-e.co.jp",
   "mailAddress":"n.matsumoto@broad-e.co.jp",
-  "mailsetting": {
-    "host": "broad-e.co.jp",
-    "auth": {
-      "user": "manshitsu@broad-e.co.jp",
-      "pass": "ooT_ae8ohJ",
-      "port": "25"
-    }
-  }
+  "mailsetting": "smtps://imajin8280%40gmail.com:8284kuro@smtp.gmail.com",
+  "mailsetting2": "smtps://n.matsumoto%40broad-e.co.jp:8284kuro@smtp.broad-e.co.jp",
+
+  "subject": "【件名】",
+  "contentText": "【内容】/n【内容改行!!!!】",
+  "contentHtml": "【内容】<br>【内容改行】"
+
 }
