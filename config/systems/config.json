@@ -2,12 +2,7 @@
   "state": "development",
   "loglevel": "TRACE",
   "domain": "localhost:3000",
-  "mailaccount": "manshitsu@broad-e.co.jp",
+  "fromContent":"賃貸経営ネット",
   "mailAddress":"n.matsumoto@broad-e.co.jp",
-  "mailsetting": "smtps://imajin8280%40gmail.com:8284kuro@smtp.gmail.com",
-
-  "subject": "【件名】",
-  "contentText": "【内容】/n【内容改行!!!!】",
-  "contentHtml": "【内容】<br>【内容改行】"
-
+  "mailsetting": "smtps://imajin8280%40gmail.com:8284kuro@smtp.gmail.com"
 }

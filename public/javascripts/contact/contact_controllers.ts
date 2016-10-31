@@ -11,7 +11,7 @@ let ContactControllers: angular.IModule = angular.module('ContactControllers', [
 ContactControllers.factory('mailSend', ['$resource',
     ($resource): angular.resource.IResource<any> => {
         return $resource('/contact/send', {}, {
-            send: {method: 'GET'}
+            send: {method: 'POST'}
         });
     }]);
 
@@ -32,9 +32,9 @@ ContactControllers.controller('ContactController', ['$scope','mailSend',
             let item = new mailSend();
 
             item.text = $scope.text;
-
             item.textarea = $scope.textarea;
 
+            item.email = $scope.email;
             item.radio = $scope.radio;
 
             item.check1 = $scope.check1;
@@ -46,8 +46,8 @@ ContactControllers.controller('ContactController', ['$scope','mailSend',
 
             item.$send((data: any): void => {
 
-                if(data == 0){
-                    console.log("成功");
+                if(data.code === 0){
+                    window.location.href = "http://localhost:3000/contact_completion.html"
                 }
 
             });

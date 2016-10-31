@@ -1,10 +1,18 @@
 <div ng-show="gamen">
     <form name="formName" novalidate>
+
         <div>テキストボックス</div>
         <input type="text" value="aaaa" ng-model="text" ng-maxlength="10" required name="texterror">
         <div ng-messages="formName.texterror.$error" ng-if='formName.texterror.$dirty'>
             <div ng-message="required"> 入力してください。</div>
             <div ng-message="maxlength"> 10もじ。</div>
+        </div>
+
+        <div>メールアドレス</div>
+        <input type="email" ng-model="email" ng-maxlength="210" required name="mail" required>
+        <div ng-messages="formName.mail.$error" ng-if='formName.mail.$dirty'>
+            <div ng-message="required"> 入力してください。</div>
+            <div ng-message="maxlength"> 210もじ。</div>
         </div>
 
 

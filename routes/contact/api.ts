@@ -17,8 +17,8 @@ export module ContactApiRouter {
     const ExceptionController: any = require("../common/controllers/exception_controller");
     const exception: any = new ExceptionController.Exception();
 
-    router.get('/send',[Contact.send]);
-    router.get('contact/send',[exception.exception, Contact.send]);
+    router.post('/send',[Contact.send]);
+    router.post('contact/send',[exception.exception, Contact.send]);
 
 }
 module.exports = ContactApiRouter.router;
