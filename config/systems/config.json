@@ -5,7 +5,6 @@
   "mailaccount": "manshitsu@broad-e.co.jp",
   "mailAddress":"n.matsumoto@broad-e.co.jp",
   "mailsetting": "smtps://imajin8280%40gmail.com:8284kuro@smtp.gmail.com",
-  "mailsetting2": "smtps://n.matsumoto%40broad-e.co.jp:8284kuro@smtp.broad-e.co.jp",
 
   "subject": "【件名】",
   "contentText": "【内容】/n【内容改行!!!!】",

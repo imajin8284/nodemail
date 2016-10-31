@@ -1,7 +1,12 @@
-    <div ng-show="gamen">
-
+<div ng-show="gamen">
+    <form name="formName" novalidate>
         <div>テキストボックス</div>
-        <input type="text" value="aaaa" ng-model="text" ng-maxlength="36">
+        <input type="text" value="aaaa" ng-model="text" ng-maxlength="10" required name="texterror">
+        <div ng-messages="formName.texterror.$error" ng-if='formName.texterror.$dirty'>
+            <div ng-message="required"> 入力してください。</div>
+            <div ng-message="maxlength"> 10もじ。</div>
+        </div>
+
 
         <div>テキストエリア</div>
         <textarea ng-model="textarea">dddd</textarea>
@@ -33,5 +38,7 @@
         </select>
 
         <br>
-        <input type="button" value="登録" ng-click="click()">
-    </div>
+        <input ng-disabled="formName.$invalid" type="button" value="登録" ng-click="click()">
+
+    </form>
+</div>

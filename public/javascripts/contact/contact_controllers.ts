@@ -19,8 +19,6 @@ ContactControllers.controller('ContactController', ['$scope','mailSend',
     ($scope: any,mailSend:any): void => {
         $scope.gamen = true;
 
-        let a = 1;
-
         //SelectBoxの初期値
         $scope.selects = [2010,2011,2012,2013,2014];
         $scope.select = null;
@@ -54,6 +52,10 @@ ContactControllers.controller('ContactController', ['$scope','mailSend',
 
             });
         }
+        $scope.Back = () =>{
+            $scope.gamen = true;
+        }
+
     }]);
 
 ContactControllers.controller('ContactConfirmationController', ['$scope','mailTransition','$location',

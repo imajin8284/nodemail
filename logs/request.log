@@ -1,13 +1,14 @@
-[2016-10-26 13:19:14.013] [ERROR] request -  1
-[2016-10-26 13:21:43.460] [ERROR] request -  1
-[2016-10-26 13:21:46.286] [ERROR] request -  1
-[2016-10-26 13:22:32.282] [ERROR] request -  1
-[2016-10-26 13:46:31.678] [ERROR] request -  1
-[2016-10-26 13:55:20.926] [ERROR] request -  1
-[2016-10-26 15:53:24.739] [ERROR] request -  1
-[2016-10-26 15:55:03.018] [ERROR] request -  1
-[2016-10-26 15:55:16.482] [ERROR] request -  1
-[2016-10-26 15:55:35.124] [ERROR] request -  1
-[2016-10-26 15:55:46.709] [ERROR] request -  1
-[2016-10-26 15:56:36.804] [ERROR] request -  1
-[2016-10-26 16:21:51.568] [ERROR] request - Invalid login - 535 5.7.0 authentication failed 1
+[2016-10-31 10:01:54.450] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:02:01.854] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:02:02.019] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:02:02.188] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:02:02.358] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:02:02.567] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:03:14.749] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:13:46.229] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:465 1
+[2016-10-31 10:16:42.345] [ERROR] request - getaddrinfo ENOTFOUND smtp.mail.broad-e.co.jp smtp.mail.broad-e.co.jp:465 1
+[2016-10-31 10:16:49.441] [ERROR] request - getaddrinfo ENOTFOUND smtp.mail.broad-e.co.jp smtp.mail.broad-e.co.jp:465 1
+[2016-10-31 10:22:39.475] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:25 1
+[2016-10-31 10:22:39.487] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:25 1
+[2016-10-31 10:22:39.490] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:25 1
+[2016-10-31 10:22:40.038] [ERROR] request - getaddrinfo ENOTFOUND smtp.broad-e.co.jp smtp.broad-e.co.jp:25 1
