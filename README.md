@@ -28,11 +28,8 @@
 
   1. デバックというボタンを押下
   2. 上の方にある緑の三角をクリックすると起動します。
-  詳しくはこちらの記事の【3デバッグ実行】を見てください、
-  
-  ![デバッグ方法の画像](http://cdn.dev.classmethod.jp/wp-content/uploads/2016/03/0113-640x286.png")
-
-  <http://dev.classmethod.jp/server-side/vscode-nodejs-1/>
+  ※下記は参考画像です。
+  ![デバッグ方法の画像](http://cdn.dev.classmethod.jp/wp-content/uploads/2016/03/0113-640x286.png)
 
 * パターン2 gulp build とコマンドをうつ。
     1. URLでlocalhost:3000と押下すると起動します。
