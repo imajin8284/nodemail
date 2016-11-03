@@ -37,13 +37,24 @@
 # 項目の追加方法
 
 # メールアドレスや件名の変更方法
-ファイルのconfig/config.jsonの中身を変更してください。
-.件名（fromContent）
-.from(mailAddress):
-・bcc(bcc):
-**ダブルクォーテーションは消さないでください。**
+ ファイルのconfig/config.jsonの中身を変更してください。
+ 
+ .件名（fromContent）
+ 
+ .from(mailAddress):
+ 
+ ・bcc(bcc):
+ 
+ **ダブルクォーテーションは消さないでください。**
 
 # メール本文の変更方法
-* お客様に届く部分
+ * お客様に届く部分
+ 
  views/contact
 
+ **htmlメールとして届きますので画像などcssなど記入できます。**
+ **outlockができない部分が多いので、基準はoutlockを使ってください**
+
+ * 自社に届くメール
+ views/contactBroad 
+  
