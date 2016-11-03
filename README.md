@@ -29,7 +29,8 @@
   1. デバックというボタンを押下
   2. 上の方にある緑の三角をクリックすると起動します。
   詳しくはこちらの記事の【3デバッグ実行】を見てください、
-  !(http://cdn.dev.classmethod.jp/wp-content/uploads/2016/03/0113-640x286.png")
+  
+  ![デバッグ方法の画像](http://cdn.dev.classmethod.jp/wp-content/uploads/2016/03/0113-640x286.png")
 
   <http://dev.classmethod.jp/server-side/vscode-nodejs-1/>
 
