@@ -109,26 +109,8 @@
  
  同じように変更をしてください。
  
- 
- サンプルで説明
- 
- textbox: request.body.text,
- 
- textと記載してる部分はng-modelと同じ名前にしてください。
- 
- textboxと記載してる部分はメールで受け取る名前になります。
- 
- それ以外は書き方を変えないでください。
 
-
- 
- public/javascripts/contact/contact.html
-
- public/javascripts/contact/contact_controllers.ts
-
-
-
- # メールアドレスや件名の変更方法
+# メールアドレスや件名の変更方法
  
  ファイルのconfig/config.jsonの中身を変更してください。
  
