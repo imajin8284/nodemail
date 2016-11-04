@@ -40,7 +40,7 @@
 
 # 項目の追加方法
 
- 1.htmlで(input type)を追加してください。
+ ** 1.htmlで(input type)を追加してください。**
  
  テキストボックス,テキストエリア,チェックボックス,ラジオボタンで追加方法
  
@@ -51,14 +51,14 @@
  ng-modelの命名は項目にあった命名にしてください。
 
  
- 2.確認画面で表示する際
+ **2.確認画面で表示する際**
  
  public/javascripts/contact/contact_confirmation.html
  
  この内容にng-modelと同じ命名にして記載しましょう。
 
 
- 3.メールで追加する方法
+ **3.メールで追加する方法**
  
  public/javascripts/contact/contact_controllers.ts
  
@@ -73,7 +73,7 @@
  itemと$scopeは絶対に変えないでください。
  
  
- 4.メールの送信部分
+ **4.メールの送信部分**
  
  routs/contact/controllers/contact_controllers.ts
  
@@ -90,7 +90,7 @@
  それ以外は書き方を変えないでください。
  
  
- 5.htmlメールで変更内容
+ **5.htmlメールで変更内容**
  
  views/mails/contact.pug
  
