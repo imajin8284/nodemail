@@ -22,7 +22,7 @@
 
 # 起動方法
 
-* パターン１ visulacodeをインストール(かなりおすすめ)
+* visulacodeをインストール(かなりおすすめ)
   *インストール場所を下記に記載致します。
   <https://code.visualstudio.com/?utm_expid=101350005-31.YsqwCVJESWmc4UCMDLsNRw.0&utm_referrer=https%3A%2F%2Fwww.google.co.jp%2F>
 
@@ -34,9 +34,6 @@
   
   ![デバッグ方法の画像](http://cdn.dev.classmethod.jp/wp-content/uploads/2016/03/0113-640x286.png)
 
-
-* パターン2 gulp build とコマンドをうつ。
-    1. URLでlocalhost:3000と押下すると起動します。
 
 # 項目の追加方法
 
@@ -81,7 +78,7 @@
 
  サンプルで説明
  
- textbox: request.body.text,
+ textbox: request.body.text
  
  textと記載してる部分はng-modelと同じ名前にしてください。
  
