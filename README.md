@@ -125,8 +125,13 @@
 # サーバーに上げる際の注意
  bower_compornet
  node_module
+
  **この２つはサーバーにあげないでください。** 
+
  コマンドプロンプトで直接サーバーに入り、
+ 
  1. npm install
+ 
  2. bower install
+ 
  のコマンドを打ってください。
