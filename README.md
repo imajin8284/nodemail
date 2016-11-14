@@ -53,14 +53,14 @@
  
  **2.確認画面で表示する際**
  
- public/javascripts/contact/contact_confirmation.html
+ public/contact/contact_confirmation.html
  
  この内容にng-modelと同じ命名にして記載しましょう。
 
 
  **3.メールで追加する方法**
  
- public/javascripts/contact/contact_controllers.ts
+ public/contact/contact_controllers.ts
  
  ソースの34行目から45行目までで記載する。
  
